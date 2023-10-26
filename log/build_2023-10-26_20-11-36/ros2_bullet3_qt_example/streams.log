@@ -1,0 +1,33 @@
+[0.044s] Invoking command in '/home/robot/catkin_ws/src/ros2_bullet3_qt_example/build/ros2_bullet3_qt_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/catkin_ws/src/ros2_bullet3_qt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/catkin_ws/src/ros2_bullet3_qt_example/install/ros2_bullet3_qt_example
+[0.053s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.249s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.267s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.591s] CMake Error at CMakeLists.txt:60 (find_package):
+[0.591s]   By not providing "Findhyu_robot_states.cmake" in CMAKE_MODULE_PATH this
+[0.591s]   project has asked CMake to find a package configuration file provided by
+[0.591s]   "hyu_robot_states", but CMake did not find one.
+[0.591s] 
+[0.591s]   Could not find a package configuration file provided by "hyu_robot_states"
+[0.591s]   with any of the following names:
+[0.591s] 
+[0.591s]     hyu_robot_statesConfig.cmake
+[0.591s]     hyu_robot_states-config.cmake
+[0.591s] 
+[0.591s]   Add the installation prefix of "hyu_robot_states" to CMAKE_PREFIX_PATH or
+[0.591s]   set "hyu_robot_states_DIR" to a directory containing one of the above
+[0.591s]   files.  If "hyu_robot_states" provides a separate development package or
+[0.591s]   SDK, be sure it has been installed.
+[0.591s] 
+[0.591s] 
+[0.592s] -- Configuring incomplete, errors occurred!
+[0.592s] See also "/home/robot/catkin_ws/src/ros2_bullet3_qt_example/build/ros2_bullet3_qt_example/CMakeFiles/CMakeOutput.log".
+[0.592s] See also "/home/robot/catkin_ws/src/ros2_bullet3_qt_example/build/ros2_bullet3_qt_example/CMakeFiles/CMakeError.log".
+[0.596s] Invoked command in '/home/robot/catkin_ws/src/ros2_bullet3_qt_example/build/ros2_bullet3_qt_example' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/catkin_ws/src/ros2_bullet3_qt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/catkin_ws/src/ros2_bullet3_qt_example/install/ros2_bullet3_qt_example

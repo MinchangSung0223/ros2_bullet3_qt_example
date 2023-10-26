@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_bullet3_qt_example/include/Publisher/msg/RobotState.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_bullet3_qt_example {
+  module msg {
+    struct RobotState {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

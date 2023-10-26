@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:60 (find_package):
+  By not providing "Findhyu_robot_states.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "hyu_robot_states", but CMake did not find one.
+
+  Could not find a package configuration file provided by "hyu_robot_states"
+  with any of the following names:
+
+    hyu_robot_statesConfig.cmake
+    hyu_robot_states-config.cmake
+
+  Add the installation prefix of "hyu_robot_states" to CMAKE_PREFIX_PATH or
+  set "hyu_robot_states_DIR" to a directory containing one of the above
+  files.  If "hyu_robot_states" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
