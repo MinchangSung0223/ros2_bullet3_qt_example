@@ -87,7 +87,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 ament_target_dependencies(${PROJECT_NAME} ${ament_target_dependencies_list})
 message(${BULLET_ROOT})
-
+target_compile_definitions(${PROJECT_NAME} PUBLIC -DBT_USE_DOUBLE_PRECISION)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

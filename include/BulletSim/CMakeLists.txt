@@ -11,6 +11,7 @@ add_library(${PROJECT_NAME} SHARED STATIC
 
 add_library(sub::BulletSim ALIAS ${PROJECT_NAME}
 )
+set(BULLET_LIBRARIES ${BULLET_ROOT}/build_cmake/local_install/lib)
 
 
 find_package(Eigen3 3.0 REQUIRED NO_MODULE)
@@ -20,7 +21,7 @@ find_package(Threads REQUIRED)
 target_link_libraries(${PROJECT_NAME} PUBLIC Eigen3::Eigen    ${BULLET_LIBRARIES} Threads::Threads)
 target_include_directories( ${PROJECT_NAME}
         PUBLIC ${PROJECT_SOURCE_DIR})
-
+target_compile_definitions(${PROJECT_NAME} PUBLIC -DBT_USE_DOUBLE_PRECISION)
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${BULLET_INCLUDE_DIR}
     ${BULLET_ROOT}/src
